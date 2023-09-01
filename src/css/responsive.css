@@ -1,0 +1,43 @@
+@media (max-width:375px) {
+    main .container  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    main .container .illustration img {
+        width: 325px;
+    }
+    main .container .informations {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    main .container .informations .tittle h2 {
+        font-size: 2.2rem;
+    }
+    main .container .informations .tittle p {
+        font-size: 1.6rem;
+        font-weight: 300;
+        width: 250px;
+    }
+    main .container .informations .plan img {
+        width: 50px;
+    }
+    main .container .informations .plan .annual {
+        width: 100px;
+    }
+    main .container .informations .plan .annual p {
+        font-weight: 300;
+    }
+    main .container .informations .plan p a {
+        font-size: 1.4rem;
+    }
+    main .container .informations .payment .proceed {
+        padding: 15px 65px;
+    }
+    main .container .informations .payment .cancel {
+        font-size: 1.6rem;
+    }
+}
